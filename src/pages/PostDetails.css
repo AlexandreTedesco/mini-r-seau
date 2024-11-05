@@ -1,0 +1,16 @@
+.post-details-container {
+  padding: 20px;
+  background-color: #1a1a2e; /* Couleur de fond sombre */
+  color: #eaeaea; /* Couleur de texte */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #00adb5; /* Couleur du titre */
+}
+
+p {
+  margin: 10px 0;
+} 

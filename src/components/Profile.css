@@ -1,0 +1,39 @@
+.profile-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a2e; /* Couleur de fond sombre */
+  color: #eaeaea; /* Couleur de texte */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #e94560;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d33a50;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  background-color: #16213e;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+} 

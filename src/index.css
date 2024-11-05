@@ -1,10 +1,16 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e; /* Couleur de fond sombre */
+  color: #eaeaea; /* Couleur de texte */
+  min-height: 100vh; /* Assurez-vous que le corps prend toute la hauteur */
+  display: flex;
+  flex-direction: column;
 }
 
 code {
